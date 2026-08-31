@@ -20,15 +20,6 @@ No API key, no signup, no third-party libraries required.
 - No external dependencies (uses `urllib` from the standard library)
 - An internet connection (this tool calls a live weather API)
 
-## Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/weather-cli.git
-cd weather-cli
-```
-
-That's it — no `pip install` needed.
-
 ## Usage
 
 ```bash
@@ -91,19 +82,8 @@ python weather.py "Paris" --json
 
 ## Running tests
 
-Tests mock all network calls, so they run fully offline:
+Tests mock all network calls so they run fully offline:
 
 ```bash
 python -m unittest discover tests
 ```
-
-## Contributing
-
-Issues and pull requests are welcome! Ideas for future features:
-- Hourly forecast breakdown
-- Support for multiple cities in one call
-- A `--watch` mode that refreshes periodically
-
-## License
-
-MIT — see [LICENSE](LICENSE).
